@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="STALKER Guitar and Harmonica Music" modversion="1.0.1" corepackage="False" steamworkshopid="2873107293" gameversion="0.19.11.0">
+  <Item file="%ModDir%/Content/Items/Misc/misc.xml" />
+</contentpackage>

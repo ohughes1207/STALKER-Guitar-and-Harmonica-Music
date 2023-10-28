@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<Items>
+  <Item name="" identifier="guitar" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
+    <Upgrade gameversion="0.9.2.0" scale="0.5"/>
+    <Price baseprice="50">
+      <Price storeidentifier="merchantoutpost" minavailable="1"/>
+      <Price storeidentifier="merchantcity" minavailable="1"/>
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+    </Price>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,256,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Misc/Misc.png" sourcerect="0,0,97,254" depth="0.6" origin="0.5,0.5" />
+    <Body radius="40" height="160" density="12" />
+    <RangedWeapon reload="1" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="30,-20" handle1="-2,-40" handle2="5,50" swingamount="10,20" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="Character">
+        <Conditional HasStatusTag="!equals clown" />
+        <sound file="Content/Items/Misc/Guitar1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+        <sound file="Content/Items/Misc/Guitar2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+        <sound file="Content/Items/Misc/Guitar3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_6.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_7.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_8.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_9.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_10.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_11.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_12.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_13.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_14.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_15.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_16.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_17.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_18.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_19.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_20.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_21.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_22.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_23.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_24.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_25.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_26.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_27.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		<sound file="%ModDir%/Content/Items/Misc/STALKER_guitar_28.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Character">
+        <Conditional HasStatusTag="clown" />
+        <sound file="Content/Items/Misc/GuitarClown.ogg" type="OnUse" range="600" loop="true" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="harmonica" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
+    <PreferredContainer primary="crewcab" spawnprobability="0.05" notcampaign="true"/>
+    <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0.1"/>
+    <Price baseprice="50">
+      <Price storeidentifier="merchantoutpost" minavailable="1"/>
+      <Price storeidentifier="merchantcity" minavailable="1"/>
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+    </Price>
+    <Upgrade gameversion="0.9.2.0" scale="0.5"/>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,256,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Misc/Misc.png" sourcerect="102,16,58,21" depth="0.6" origin="0.5,0.5" />
+    <Body width="58" height="20" density="12" />
+    <RangedWeapon reload="1" />
+    <Holdable slots="RightHand+LeftHand,Any" aimable="false" aimpos="25,15" handle1="-10,0" handle2="0,0" swingamount="20,0" swingspeed="0.5" swingwhenusing="true" msg="ItemMsgPickUpSelect">
+	  <sound file="%ModDir%/Content/Items/Misc/STALKER_harmonica_1.ogg" type="OnUse" range="600" loop="true" />
+	  <sound file="%ModDir%/Content/Items/Misc/STALKER_harmonica_2.ogg" type="OnUse" range="600" loop="true" />
+	  <sound file="%ModDir%/Content/Items/Misc/STALKER_harmonica_3.ogg" type="OnUse" range="600" loop="true" />
+	  <sound file="%ModDir%/Content/Items/Misc/STALKER_harmonica_4.ogg" type="OnUse" range="600" loop="true" />
+	  <sound file="%ModDir%/Content/Items/Misc/STALKER_harmonica_5.ogg" type="OnUse" range="600" loop="true" />
+      <sound file="Content/Items/Misc/Harmonica1.ogg" type="OnUse" range="600" loop="true" />
+      <sound file="Content/Items/Misc/Harmonica2.ogg" type="OnUse" range="600" loop="true" />
+      <StatusEffect tags="playingharmonica" type="OnUse" target="Character" duration="0.1" stackable="false" />
+    </Holdable>
+  </Item>
+
+ </Items>
+</Override>
